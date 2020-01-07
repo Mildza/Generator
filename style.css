@@ -1,0 +1,41 @@
+body {
+  background-color: #212121;
+  color:#eeeeee;
+  font-size: 1.2rem;
+}
+.form-check {
+  padding: 5px;
+}
+.form-control  {
+  width: 90px;
+}
+ul {
+  list-style-type: none;
+}
+button {
+  width: 90px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+h1 {
+  margin:30px;
+}
+@media (max-width: 576px) {
+  .option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .list {
+    display: flex;
+    justify-content: center;
+  }
+  .lists {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  h1 {
+    margin: 10px;
+  }
+ }
